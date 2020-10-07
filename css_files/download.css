@@ -1,0 +1,38 @@
+main{
+    height: 100%;
+}
+header{
+    padding-bottom: 1%;
+}
+#backgroundDownload{
+    background-image: url('../images/genericwallpaper2.jpg');
+    height: 100%;
+    display: block;
+    box-shadow: inset 0 0 .44vw rgba(0, 0, 0, 0.836);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#imagesDownload{
+    position: relative;
+    text-align: center;
+    top: 60%;
+}
+#textDownload{
+    position: relative;
+    text-align: center;
+    font-size: 5vw;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    color: black;
+    top: 35%;
+}
+.downloadButtons{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+.downloadButtons:hover{
+    transform: scale(1.1);
+}

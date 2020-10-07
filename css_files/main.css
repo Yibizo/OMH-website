@@ -1,0 +1,64 @@
+main{
+    height: 400%;/*numero de imagenes por 100 */
+}
+header{
+    padding-bottom: 1%; 
+}
+scroll-container{
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
+nav{
+    position: fixed;
+    right: 1%;
+    top: 45%;
+    z-index: 100;
+}
+.circleScroll{
+    background-color: rgb(99, 96, 96);
+    border: solid .1vw black;
+    text-decoration: none;
+    height: .8vw;
+    width: .8vw;
+    display: inline-block;
+    border-radius: 50%;
+    opacity: .5;
+    box-shadow: inset 0 0 .2vw rgba(0, 0, 0, 0.836);
+    margin: .3vw 0;
+}
+.circleScroll:hover{
+    opacity: .8;
+}
+/*Los porcentajes de los heights tienen que sumar 100% de acuerdo al número de imagenes*/
+.backgroundImg{
+    display: block;
+    height: 25%;
+    box-shadow: inset 0 0 .44vw .2vw rgba(0, 0, 0, 0.836);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.textTitle{
+    position: relative;
+    text-align: center;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgba(184, 184, 184, 0.26);
+    box-shadow: inset 0 0 .44vw .15vw rgba(0, 0, 0, 0.836);
+    top: 50%;
+    font-size: 10vw;
+    border-top: .3vw solid black;
+    border-bottom: .3vw solid black;
+}
+.textFeature{
+    position: relative;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgba(0, 0, 0, 0.555);
+    top: 10%;
+    font-size: 5vw;
+    border-bottom-right-radius: 1.5vw;
+    border-top-right-radius: 1.5vw;
+    border: .15vw solid white;
+    border-left: .01vw solid rgba(255, 255, 255, 0);
+}
